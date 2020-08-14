@@ -1,7 +1,7 @@
 <?php
 
     class Vehicule 
-    // Mettre le même nom que le fichier, attention aux majuscules si présentes.
+    // La classe doit portée une majuscule et le fichier porte le même nom.
     { 
         public $color = 'blanche';
         public $brand = 'peugeot';
@@ -18,4 +18,3 @@
             $this->engine = $_engine;
         }
     }
-

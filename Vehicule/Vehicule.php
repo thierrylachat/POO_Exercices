@@ -9,6 +9,7 @@
         public $power = 4;
         public $engine = 'essence';
 
+        // Le constructeur est "public" et les attributs sont "private". 
         public function __construct($_color='', $_brand='', $_model='', $_power='', $_engine='')
         {
             $this->color = $_color;

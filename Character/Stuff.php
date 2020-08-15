@@ -2,12 +2,12 @@
 
 class Stuff 
 {
-    private $head;
-    private $body;
-    private $weapon;
+    private $_head;
+    private $_body;
+    private $_weapon;
     /**
      * Les commentaires techniques facilitent la lecture et la compréhension du code.
-     * Le constructeur permet d'hydrater mon object lors de sa création.
+     * Le constructeur permet d'hydrater mon objet lors de sa création.
      * @param string $_head
      * @param string $_body
      * @param string $_weapon

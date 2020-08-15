@@ -3,6 +3,7 @@ require_once 'Character.php';
 require_once 'Orc.php';
 require_once 'Stuff.php';
 
+// Instanciation de nouveaux objets.
 $stuff = new Stuff('casque lourd', 'armure kevlar','Fennec');
 $character = new Character(100,100,$stuff,'');
 $orc = new Orc(3,100,56,8);
